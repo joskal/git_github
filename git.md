@@ -35,3 +35,8 @@ Podemos definir alias para hacer mas breve la introducción de comandos.
 git config --global alias.s "status -sb"
 git config --global alias.lg "log --oneline --decorate --all --graph"
 ```
+
+Si queremos editar algun alias ya definido, editaremos el fichero de configuraci&oacute;n explicado anteriormente:
+```bash
+git config --global -e
+```
