@@ -9,3 +9,23 @@
 git config —global user.name "joskal"
 git config —global user.email "joskal@gmail.com"
 ```
+Para ver/editar nuestra configuraci&oacute;n global:
+```bash
+#Para listarlo:
+git config --global -l
+
+#Para editarlo:
+git config --global -e
+
+#Contenido del fichero de configuracion.
+[user]
+ name = joskal
+ email = joskal@gmail.com
+[color]
+ ui = true
+[alias]
+ lg = log --oneline --decorate --all --graph
+ s = status -sb
+[core]
+ editor = mvim
+```
