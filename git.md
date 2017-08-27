@@ -40,3 +40,15 @@ Si queremos editar algun alias ya definido, editaremos el fichero de configuraci
 ```bash
 git config --global -e
 ```
+---
+
+# Repositorios
+Para inicializar un repositorio (proyecto):
+```bash
+git init
+```
+Para quitar git de un proyecto basta con borrar el directorio .git
+```bash
+rm -rf ./.git
+```
+Agregar ficheros al stage (escenario):
