@@ -52,3 +52,23 @@ Para quitar git de un proyecto basta con borrar el directorio .git
 rm -rf ./.git
 ```
 Agregar ficheros al stage (escenario):
+```bash
+#Todos los ficheros
+git add .
+
+#Agregar un fichero o una lista de ellos:
+git add fichero1 fichero2 fichero3
+
+#Agregar los archivos modificados:
+git add -A
+
+#Quitar del stage un archivo concreto o una lista de ellos:
+git reset fichero1
+
+Para agregar los ficheros de una extension de todos los directorios del proyecto:
+git add *.txt
+
+#Idem al anterior pero solo del directorio actual:
+git add "*.txt"
+
+```
