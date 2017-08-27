@@ -65,10 +65,18 @@ git add -A
 #Quitar del stage un archivo concreto o una lista de ellos:
 git reset fichero1
 
-Para agregar los ficheros de una extension de todos los directorios del proyecto:
+#Para agregar los ficheros de una extension de todos los directorios del proyecto:
 git add *.txt
 
 #Idem al anterior pero solo del directorio actual:
 git add "*.txt"
 
+#Agregar todos los archivos contenidos en el directorio pdfs:
+git add pdfs/
+
+#Para ver el estado de los archivos (los que estan en el stage y los que no,
+#los agregados, los modificados, y los removidos)
+git status
+#forma abreviada:
+git status -sb
 ```
