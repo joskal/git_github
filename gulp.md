@@ -1,28 +1,17 @@
-Instalar node.js
-
-```js
-brew install node
-```
-
-Actualizar node.js
-
-```js
-brew upgrade node
-```
+# gulp.js
 
 Instalar gulp globalmente
-
-```js
+```sh
 sudo npm install -g gulp
 ```
 
 Comprobar versiones
-
-```js
+```sh
 node --version
-npm —version
-gulp —version
+npm --version
+gulp --version
 ```
+---
 
 Para usar gulp en nuestros proyectos debemos hacer una instalación local en nuestro directorio de trabajo.
 
