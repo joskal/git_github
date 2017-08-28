@@ -68,7 +68,7 @@ Por defecto git no sube los tags al repositorio remoto, por lo que hay que hacer
 git push --tags
 ```
 
-**Clonar un repositorio desde github en local**. En GitHub, dentro del tab code, tenemos un botón que pone **clone or download, **copiamos la dirección y la pegamos junto con el siguiente comando:
+**Clonar un repositorio desde github en local**. En GitHub, dentro del tab code, tenemos un botón que pone **clone or download**, copiamos la dirección y la pegamos junto con el siguiente comando:
 
 ```sh
 #podemos indicarle un nombre de carpeta (ej: demo10) 
