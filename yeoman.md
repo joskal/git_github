@@ -21,3 +21,5 @@ yo
 gulp serve
 gulp build
 ```
+
+Para windows utilizar **cmder** como terminal
