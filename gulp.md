@@ -59,10 +59,10 @@ En este fichero se definirán las tareas a ejecutar por gulp.
 En primer lugar se declara una variable por cada paquete instalado.
 
 ```json
-var gulp = require('gulp');
-var sass = require('gulp-sass');
+var gulp 	= require('gulp');
+var sass 	= require('gulp-sass');
 var browserSync	= require('browser-sync');
-var reload = browserSync.reload;
+var reload 	= browserSync.reload;
 ```
 
 Después se definen las tareas correspondientes con **gulp.task. **Dentro de task se indicarán el origen **gulp.src()** y el destino **gulp.dest()** de la tarea.
