@@ -56,7 +56,6 @@ gulpfile.js
 -----------
 
 En este fichero se definirán las tareas a ejecutar por gulp.
-
 En primer lugar se declara una variable por cada paquete instalado.
 
 ```json
@@ -90,8 +89,11 @@ Si no especificamos ninguna tarea al llamar a **gulp, **se ejecutará la que def
 
 ```js
 gulp.task('default', ['serve']);
-```gulp browser-sync
------------------
+```
+
+# workflows
+
+## gulp browser-sync
 
 ```js
 var gulp 		= require('gulp');
@@ -116,8 +118,7 @@ gulp.task('default', ['serve']);
 
 ```
 
-gulp-sass browser-sync
-----------------------
+## gulp-sass browser-sync
 
 ```js
 var gulp 		    = require('gulp');
