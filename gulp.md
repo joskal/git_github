@@ -65,7 +65,7 @@ var browserSync	= require('browser-sync');
 var reload 	= browserSync.reload;
 ```
 
-Después se definen las tareas correspondientes con **gulp.task. **Dentro de task se indicarán el origen **gulp.src()** y el destino **gulp.dest()** de la tarea.
+Después se definen las tareas correspondientes con **gulp.task.** Dentro de task se indicarán el origen **gulp.src()** y el destino **gulp.dest()** de la tarea.
 
 ```js
 gulp.task('sass',function(){
@@ -77,7 +77,7 @@ gulp.task('sass',function(){
 });
 ```
 
-Asimismo también tenemos el método **gulp.watch. **Que comprueba si se han realizado cambios en determinados ficheros o directorios e inicia la tarea especificada.
+Asimismo también tenemos el método **gulp.watch.** Que comprueba si se han realizado cambios en determinados ficheros o directorios e inicia la tarea especificada.
 
 ```js
 gulp.watch('js/**/*.js', function(event) {
@@ -85,7 +85,7 @@ gulp.watch('js/**/*.js', function(event) {
 });
 ```
 
-Si no especificamos ninguna tarea al llamar a **gulp, **se ejecutará la que definamos por defecto (**default**)
+Si no especificamos ninguna tarea al llamar a **gulp**, se ejecutará la que definamos por defecto (**default**)
 
 ```js
 gulp.task('default', ['serve']);
