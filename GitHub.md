@@ -76,3 +76,4 @@ git push --tags
 #podemos indicarle un nombre de carpeta (ej: demo10) 
 git clone https://github.com/joskal/udemy-heroes.git demo10
 ```
+**Clonar un repositorio de otra cuenta en GitHub a la nuestra (Crear un Fork)**. En GitHub, arriba, a la derecha, tenemos el boton de **Fork**. Tan solo tenemos que pulsarlo y automaticamente aparecera una copia en nuestra cuenta.
