@@ -77,4 +77,10 @@ git push --tags
 git clone https://github.com/joskal/udemy-heroes.git demo10
 ```
 **Clonar un repositorio de otra cuenta en GitHub a la nuestra (Crear un Fork)**. En GitHub, arriba, a la derecha, tenemos el boton de **Fork**. Tan solo tenemos que pulsarlo y automaticamente aparecera una copia en nuestra cuenta.
-Los cambios que hagamos en ese fork, podemos proponerlos al usuario due&ntilde;o del repositorio principal a trav&eacute;s del bot&oacute;n **Pull Request**
+Los cambios que hagamos en ese fork, podemos proponerlos al usuario due&ntilde;o del repositorio principal a trav&eacute;s del bot&oacute;n **Pull Request**.
+
+Cuando hacemos un **git branch -a** nos puede salir ramas en github que ya han sido borradas. Entonces tenemos que purgarlas en local de la siguiente manera: 
+
+```sh
+git remote prune origin
+```
