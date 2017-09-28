@@ -84,3 +84,7 @@ Cuando hacemos un **git branch -a** nos puede salir ramas en github que ya han s
 ```sh
 git remote prune origin
 ```
+Cuando abrimos un **issue** podemos cerrarlo con el boton correspondiente o en local a traves de la terminal. Debemos tomar nota antes del numeral del issue. P.ej: Resolvemos el issue agregando un commit y agregando el comando **fixes #** en el comentario:
+```sh
+git commit -am "Agregamos a Nick Fury fixes #3"
+```
