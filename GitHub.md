@@ -87,4 +87,6 @@ git remote prune origin
 Cuando abrimos un **issue** podemos cerrarlo con el boton correspondiente o en local a traves de la terminal. Debemos tomar nota antes del numeral del issue. P.ej: Resolvemos el issue agregando un commit y agregando el comando **fixes #** en el comentario (Tambien podemos poner en lugar de **fixes** la palabra **closes** o **resolves**):
 ```sh
 git commit -am "Agregamos a Nick Fury fixes #3"
+#Subimos los cambios a GitHub
+git push
 ```
