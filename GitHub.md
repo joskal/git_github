@@ -90,3 +90,9 @@ git commit -am "Agregamos a Nick Fury fixes #3"
 #Subimos los cambios a GitHub
 git push
 ```
+## wiki
+Un wiki es una base de conocimientos relacionado con nuestro pryecto. En Github viene habilitado por medio de un tab habilitado al efecto en la parte superior.
+
+El primer wiki que creamos viene ya con el nombre por defecto: **Home**. Este nombre es obligatorio para el primero y conviene que lo respetemos.
+
+Por defecto cualquiera puede modificar el contenido de nuestras wikis. para evitar esto iremos a la pestaña **settings** y en la sección **features** marcaremos la opción **Restrict editing to collaborators only**. De todas formas aunque cualquiera no puede modificar el contenido, sí que puede verlo.
