@@ -95,4 +95,9 @@ Un wiki es una base de conocimientos relacionado con nuestro pryecto. En Github 
 
 El primer wiki que creamos viene ya con el nombre por defecto: **Home**. Este nombre es obligatorio para el primero y conviene que lo respetemos.
 
-Por defecto cualquiera puede modificar el contenido de nuestras wikis. para evitar esto iremos a la pestaña **settings** y en la sección **features** marcaremos la opción **Restrict editing to collaborators only**. De todas formas aunque cualquiera no puede modificar el contenido, sí que puede verlo.
+Por defecto cualquiera puede modificar el contenido de nuestras wikis. para evitar esto iremos a la pestaña **settings** y en la sección **features** marcaremos la opción **Restrict editing to collaborators only**. De todas formas aunque cualquiera ya no pueda modificar el contenido, sí que puede verlo.
+
+Podemos referenciar a otros wikis de nuestros repositorios tan solo con el nombre.
+```html
+[Enlace al wiki](NombreWiki)
+```
