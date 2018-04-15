@@ -110,4 +110,6 @@ Por ejemplo, si nuestro nombre de usuario es joskal, debemos crear un nuevo repo
 
 Podemos seleccionar una plantilla para nuestra web entrando en **settings / GitHub pages / Choose a theme**
 
-Al seleccionar una plantilla se nos generarán dos archivos: **\_config.yml** y **index.md** 
+Al seleccionar una plantilla se nos generarán dos archivos: **\_config.yml** e **index.md**.
+
+Para averiguar el enlace donde se publicará nuestra página iremos a **settings / Hithub pages** Donde aparecerá el enlace como **Your site is published at https://joskal.github.io**
