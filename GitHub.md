@@ -104,3 +104,10 @@ Podemos referenciar a otros wikis de nuestros repositorios tan solo con el nombr
 ## Projects
 La manera de crear proyectos es como crear una gran pizarra donde se ubicará una serie de columnas que contendrán las notas. Podemos cambiar las notas a otras columnas según nos interese. Las notas se pueden convertir en **issues** pulsando en el botón que aparece en cada nota. Cuando la convirtamos en un issue será tratado como tal, llevándonos a la pestaña **issues** cuando la editemos. 
 ## GitHub Pages
+GitHub proporciona un espacio para montar nuestras webs. Para ello debemos crear un repositorio nuevo con un nombre especial: nuestro nombre de usuario seguido de github.io.
+Por ejemplo, si nuestro nombre de usuario es joskal, debemos crear un nuevo repositorio con este nombre:
+**joskal.github.io**
+
+Podemos seleccionar una plantilla para nuestra web entrando en **settings / GitHub pages / Choose a theme**
+
+Al seleccionar una plantilla se nos generarán dos archivos: **\_config.yml** y **index.md** 
