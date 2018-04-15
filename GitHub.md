@@ -101,3 +101,6 @@ Podemos referenciar a otros wikis de nuestros repositorios tan solo con el nombr
 ```html
 [Enlace al wiki](NombreWiki)
 ```
+## Projects
+La manera de crear proyectos es como crear una gran pizarra donde se ubicará una serie de columnas que contendrán las notas. Podemos cambiar las notas a otras columnas según nos interese. Las notas se pueden convertir en **issues** pulsando en el botón que aparece en cada nota. Cuando la convirtamos en un issue será tratado como tal, llevándonos a la pestaña **issues** cuando la editemos. 
+## GitHub Pages
