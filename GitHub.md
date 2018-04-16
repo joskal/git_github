@@ -118,4 +118,6 @@ Para averiguar el enlace donde se publicará nuestra página iremos a **settings
 ```bash
 git clone https://github.com/joskal/joskal.github.io.git
 ```
-Optamos por eliminar o renombrar los ficheros creados antes y empezamos a crear nuestra estructura web con un **index.html**
+Optamos por eliminar o renombrar los ficheros creados antes y empezamos a crear nuestra estructura web con un **index.html**.
+
+Podemos tener alojado un espacio web en cada repositorio. Para ello debemos crear un directorio **docs** en el repositorio en cuestión y alojar en él los ficheros que conformarán la web. Inmediatamente después nos vamos **settings / GitHub Pages / Source** y elegimos la opción **master branch / docs folder**
