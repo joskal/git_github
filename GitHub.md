@@ -114,4 +114,4 @@ Al seleccionar una plantilla se nos generarán dos archivos: **\_config.yml** (p
 
 Para averiguar el enlace donde se publicará nuestra página iremos a **settings / Hithub pages** Donde aparecerá el enlace como **Your site is published at https://joskal.github.io**.
 
-**Github pages** no está limitado a estos dos archivos. En su lugar podemos subir un conjuntos de ficheros html, css y javascript que trabajaremos en local.
+**Github pages** no está limitado a estos dos archivos. En su lugar podemos subir un conjuntos de ficheros html, css y javascript que trabajaremos en local. Para ello visualizaremos todos los ficheros en la pestaña **Code** y acto seguido pincharemos en el botón **Clone or Download**. Copiamos la url que nos aparecerá.
