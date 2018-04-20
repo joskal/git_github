@@ -124,6 +124,6 @@ Podemos tener alojado un espacio web en cada repositorio. Para ello debemos crea
 ## Tokens
 Los tokens de acceso personal son una especie de llaves para acceder a distintas partes de github, entre ellos los gist.
 
-**Settings / Developer settings /personal access tokens**.
+**Settings / Developer settings / personal access tokens**.
 
-Podemos crear tantos tokens como necesitemos, pero a la hora de crearlos conviene tomar nota de ellos en cuanto lo generemos, ya que no volverán a mostrarse cuando volvamos a acceder. Pero sí podemos regenerar un nuevo token dando entrando en **edit**. 
+Podemos crear tantos tokens como necesitemos, pero a la hora de crearlos conviene tomar nota de ellos en cuanto lo generemos, ya que no volverán a mostrarse cuando volvamos a acceder. Pero sí podemos regenerar un nuevo token entrando en **edit**. 
