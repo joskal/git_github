@@ -126,4 +126,4 @@ Los tokens de acceso personal son una especie de llaves para acceder a distintas
 
 **Settings / Developer settings / personal access tokens**.
 
-Podemos crear tantos tokens como necesitemos, pero a la hora de crearlos conviene tomar nota de ellos en cuanto lo generemos, ya que no volverán a mostrarse cuando volvamos a acceder. Pero sí podemos regenerar un nuevo token entrando en **edit**. 
+Podemos crear tantos tokens como necesitemos, pero a la hora de crearlos conviene tomar nota de ellos en cuanto lo generemos, ya que no volverán a mostrarse cuando volvamos a acceder. Pero sí podemos regenerar uno nuevo editándolo y pulsando el botón **Regenerate token**. 
