@@ -121,6 +121,20 @@ git clone https://github.com/joskal/joskal.github.io.git
 Optamos por eliminar o renombrar los ficheros creados antes y empezamos a crear nuestra estructura web con un **index.html**.
 
 Podemos tener alojado un espacio web en cada repositorio. Para ello debemos crear un directorio **docs** en el repositorio en cuestión y alojar en él los ficheros que conformarán la web. Inmediatamente después nos vamos a **settings / GitHub Pages / Source** y elegimos la opción **master branch / docs folder**.
+## SSH
+Para generar una clave ssh en local: Desde nuestro directorio home, comprobar si existe el directorio **.ssh**, si no es así, lo creamos. Hacemos  **cd ~/.ssh** e introducimos el siguiente comando con nuestro email:
+```bash
+ssh-keygen -t rsa -C "miemail@mail.com"
+```
+Con esto se nos generará dos archivos: **id_rsa** (clave privada) y **id_rsa.pub** (clave pública).
+
+Ahora procederemos a verificar la conexión ssh en github. Entramos en **Settings / SSH and GPG keys** y pulsamos en **New SSH key**. Introducimos un titulo (p.ej: iMac joskal) para nuestra clave ssh en **Title** y en el campo **key** pegaremos el contenido del archivo **id_rsa.pub**, pinchamos en **Add SSH key**. Y ahora nos pedirá nuestra contraseña de Github. En caso de que nos equivoquemos podemos borrar la clave y volver a empezar.
+
+A continuación vamos a realizar la conexión desde nuestra máquina con github.
+```bash
+ssh -T git@github.com
+```
+
 ## Tokens
 Los tokens de acceso personal son una especie de llaves para acceder a distintas partes de github, entre ellos los gist.
 
