@@ -134,6 +134,10 @@ A continuación vamos a realizar la conexión desde nuestra máquina con github.
 ```bash
 ssh -T git@github.com
 ```
+Podemos probar clonando alguno de nuestros repositorios en GitHub por ssh. Vamos a probar con el repositorio Yeoman.
+```bash
+git clone git@github.com:joskal/yeoman.git
+```
 
 ## Tokens
 Los tokens de acceso personal son una especie de llaves para acceder a distintas partes de github, entre ellos los gist.
