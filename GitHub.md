@@ -134,8 +134,9 @@ A continuación vamos a realizar la conexión desde nuestra máquina con github.
 ```bash
 ssh -T git@github.com
 ```
-Podemos probar clonando alguno de nuestros repositorios en GitHub por ssh. Vamos a probar con el repositorio Yeoman.
+La forma de clonar un repositorio en local por ssh es la siguiente:
 ```bash
+# Clonar el repositorio yeoman por ssh
 git clone git@github.com:joskal/yeoman.git
 ```
 
@@ -145,3 +146,10 @@ Los tokens de acceso personal son una especie de llaves para acceder a distintas
 **Settings / Developer settings / personal access tokens**.
 
 Podemos crear tantos tokens como necesitemos, pero a la hora de crearlos conviene tomar nota de ellos en cuanto lo generemos, ya que no volverán a mostrarse cuando volvamos a acceder. Pero sí podemos regenerar uno nuevo editándolo y pulsando el botón **Regenerate token**. 
+
+## Gists
+Los gists son una herramienta ideal para programadores, las cuales permiten compartir nuestro código con otros usuarios. Son repositorios, por lo general, de uno o más ficheros.
+
+La forma de acceder a los gists es pinchando en el icono de usuario y después en **your gists** o directamente introduciendo la url: **https://gist.github.com/**
+
+Una vez en la página, introduciremos una descripción del gist y el contenido. Al terminar pulsaremos uno de los dos botones al efecto: **Create secret gist** o **Create public gist**. El primer botón lo que hace realmente es que el gist no aparezca en los resultados de búsqueda de github mientras que el segundo sí.
