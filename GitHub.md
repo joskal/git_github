@@ -153,3 +153,6 @@ Los gists son una herramienta ideal para programadores, las cuales permiten comp
 La forma de acceder a los gists es pinchando en el icono de usuario y después en **your gists** o directamente introduciendo la url: **https://gist.github.com/**
 
 Una vez en la página, introduciremos una descripción del gist y el contenido del fichero.Si queremos agregar otro fichero tan sólo tenemos que pulsar en **Add file**. Al terminar pulsaremos uno de los dos botones al efecto: **Create secret gist** o **Create public gist**. El primer botón lo que hace realmente es que el gist no aparezca en los resultados de búsqueda de github mientras que el segundo sí.
+
+Al pinchar en un gist se nos aparecen varios botones, entre ellos un cuadro de lista con las siguientes opciones:
+* **embed**: Con esta opción podemos insertar el gist como un código javascript (en caso de que el gist lo sea) insertando en nuestro editor la dirección proporcionada al lado.
