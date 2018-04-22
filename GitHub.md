@@ -155,7 +155,7 @@ La forma de acceder a los gists es pinchando en el icono de usuario y después e
 Una vez en la página, introduciremos una descripción del gist y el contenido del fichero.Si queremos agregar otro fichero tan sólo tenemos que pulsar en **Add file**. Al terminar pulsaremos uno de los dos botones al efecto: **Create secret gist** o **Create public gist**. El primer botón lo que hace realmente es que el gist no aparezca en los resultados de búsqueda de github mientras que el segundo sí.
 
 Al pinchar en un gist se nos aparecen varios botones, entre ellos un cuadro de lista con las siguientes opciones:
-* **Embed**: Con esta opción podemos insertar el gist como un código javascript (en caso de que el gist lo sea) insertando en nuestro editor la dirección proporcionada al lado (*<script src="https://gist.github.com/joskal/fa765563f6c531c17f85bd8ce65d10fa.js"></script>*).
-* **Share**: Obtenemos el gist simplemente introduciendo la url que se nos muestra (*https://gist.github.com/joskal/fa765563f6c531c17f85bd8ce65d10fa* .
+* **Embed**: Con esta opción podemos insertar el gist como un código javascript (en caso de que el gist lo sea) insertando en nuestro editor la dirección proporcionada al lado (*\<script src="https://gist.github.com/joskal/fa765563f6c531c17f85bd8ce65d10fa.js">\</script>*).
+* **Share**: Obtenemos el gist simplemente introduciendo la url que se nos muestra (*https://gist.github.com/joskal/fa765563f6c531c17f85bd8ce65d10fa*) .
 * **Clone via https**: Volcar en local con un **git clone** (*git clone https://gist.github.com/fa765563f6c531c17f85bd8ce65d10fa.git*).
 * **Clone via ssh**: Idem al anterior pero por ssh (*git clone git@gist.github.com:fa765563f6c531c17f85bd8ce65d10fa.git*).
