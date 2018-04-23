@@ -152,10 +152,22 @@ Los gists son una herramienta ideal para programadores, las cuales permiten comp
 
 La forma de acceder a los gists es pinchando en el icono de usuario y después en **your gists** o directamente introduciendo la url: **https://gist.github.com/**
 
-Una vez en la página, introduciremos una descripción del gist y el contenido del fichero.Si queremos agregar otro fichero tan sólo tenemos que pulsar en **Add file**. Al terminar pulsaremos uno de los dos botones al efecto: **Create secret gist** o **Create public gist**. El primer botón lo que hace realmente es que el gist no aparezca en los resultados de búsqueda de github mientras que el segundo sí.
+Una vez en la página, introduciremos una descripción del gist, el nombre del fichero con su extensión y el contenido del fichero. Si queremos agregar otro fichero tan sólo tenemos que pulsar en **Add file**. Al terminar pulsaremos uno de los dos botones al efecto: **Create secret gist** o **Create public gist**. El primer botón lo que hace realmente es que el gist no aparezca en los resultados de búsqueda de github mientras que el segundo sí.
 
 Al pinchar en un gist se nos aparecen varios botones, entre ellos un cuadro de lista con las siguientes opciones:
 * **Embed**: Con esta opción podemos insertar el gist como un código javascript (en caso de que el gist lo sea) insertando en nuestro editor la dirección proporcionada al lado (*\<script src="https://gist.github.com/joskal/fa765563f6c531c17f85bd8ce65d10fa.js">\</script>*).
 * **Share**: Obtenemos el gist simplemente introduciendo la url que se nos muestra (*https://gist.github.com/joskal/fa765563f6c531c17f85bd8ce65d10fa*) .
 * **Clone via https**: Volcar en local con un **git clone** (*git clone https://gist.github.com/fa765563f6c531c17f85bd8ce65d10fa.git*).
 * **Clone via ssh**: Idem al anterior pero por ssh (*git clone git@gist.github.com:fa765563f6c531c17f85bd8ce65d10fa.git*).
+
+Alternativamente podemos instalar un plugin en nuestro editor (Sublime Text, Visual Studio Code, Atom), con el que nos comunicaremos con github a través de un token generado en nuestra cuenta y así acceder a los gists desde el editor.
+
+Instalar y usar plugin gist en los siguientes editores (Antes de instalar el plugin debemos crear un token para los gists):
+### Sublime Text
+Abrimos el comando **Package control: install package** y tecleamos **gist**. Una vez instalado vamos al menú **Sublime Text / Package Settings / Gist / Settings-User**. Y escribimos lo siguiente en el fichero (el token va donde se indica):
+```bash
+{  // Your GitHub API token
+     "token": "your_api_key_here"
+}
+```
+Una vez guardado los cambios podemos usarlo invocando el comando **gist** desde la paleta.
