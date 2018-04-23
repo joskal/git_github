@@ -171,3 +171,9 @@ Abrimos el comando **Package control: install package** y tecleamos **gist**. Un
 }
 ```
 Una vez guardado los cambios podemos usarlo invocando el comando **gist** desde la paleta.
+
+### Visual Studio Code
+En el caso de este editor debemos buscar el plugin Gist de Ken Howard. La instalación es muy sencilla y viene documentada.
+
+### Atom
+En este editor instalaremos el plugin **gist** de Aki77. En el botón settings configuraremos el plugin introduciendo el token y otros parámetros.
