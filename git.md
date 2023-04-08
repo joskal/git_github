@@ -7,7 +7,7 @@
 Configurar git con nuestros datos.
 ```javascript
 git config —global user.name "joskal"
-git config —global user.email "joskal@gmail.com"
+git config —global user.email "joskal@icloud.com"
 ```
 Para ver/editar nuestra configuraci&oacute;n global:
 ```bash
